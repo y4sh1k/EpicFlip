@@ -10,7 +10,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $recipient = "youragencyemail@example.com"; // <-- PUT YOUR EMAIL HERE
+    $recipient = "yashgotyou01@gmail.com"; // <-- PUT YOUR EMAIL HERE
     $subject = "New Lead from EpicFlip Website";
 
     $email_content = "Name: $name\n";
