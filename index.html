@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epicflip - Creative Design Agency</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/yourfontawesomekit.js" crossorigin="anonymous"></script> <!-- Replace with your kit -->
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">Epicflip</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="showreel.html">Showreel</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <canvas id="particles-js"></canvas>
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Unleashing Creativity, Crafting Experiences</h1>
+            <p>Designs that Flip Your Perspective.</p>
+            <a href="showreel.html" class="btn">Explore Our Work</a>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section id="about-preview" data-aos="fade-right">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a creative powerhouse committed to flipping perspectives and designing memorable experiences.</p>
+            <a href="about.html" class="btn-secondary">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Showreel Preview -->
+    <section id="showreel-preview" data-aos="fade-left">
+        <div class="container">
+            <h2>Showreel</h2>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" data-aos="zoom-in">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>“Epicflip elevated our brand identity beyond expectations.”</p>
+                    <h4>- Client Name</h4>
+                </div>
+                <div class="testimonial">
+                    <p>“Truly a team of creative magicians!”</p>
+                    <h4>- Another Client</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="socials">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <p>&copy; 2025 Epicflip. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <div id="chatbot">
+        <button id="chatbot-toggle"><i class="fas fa-comment-dots"></i></button>
+        <div id="chatbot-box" class="hidden">
+            <div class="chatbot-header">Epicflip Assistant</div>
+            <div class="chatbot-body">
+                <button class="faq">What services do you offer?</button>
+                <button class="faq">What is your pricing model?</button>
+                <button class="faq">How can I contact you?</button>
+                <button class="faq">Where are you located?</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/chatbot.js"></script>
+
+</body>
+</html>
